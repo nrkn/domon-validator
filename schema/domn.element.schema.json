@@ -1,6 +1,6 @@
 {
-  "id": "domn-element",
-  "title": "DOMN element node",
+  "id": "domon-element",
+  "title": "DOMON element node",
   "type": "array",
   "minItems": 1,
   "anyOf": [
@@ -13,22 +13,22 @@
     {
       "items": [
         { "type": "string", "minLength": 1 },
-        { "$ref": "domn-childNodes" }
+        { "$ref": "domon-childNodes" }
       ],
       "additionalItems": false
     },
     {
       "items": [
         { "type": "string", "minLength": 1 },
-        { "$ref": "domn-attributes" }
+        { "$ref": "domon-attributes" }
       ],
       "additionalItems": false
     },
     {
       "items": [
         { "type": "string", "minLength": 1 },
-        { "$ref": "domn-attributes" },
-        { "$ref": "domn-childNodes" }
+        { "$ref": "domon-attributes" },
+        { "$ref": "domon-childNodes" }
       ],
       "additionalItems": false
     }

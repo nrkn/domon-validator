@@ -1,14 +1,14 @@
 {
-  "id": "domn-childNodes",
-  "title": "DOMN child nodes",
+  "id": "domon-childNodes",
+  "title": "DOMON child nodes",
   "type": "array",
   "items": {
     "anyOf": [
-      { "$ref": "domn-element" },
-      { "$ref": "domn-text" },
-      { "$ref": "domn-processingInstruction" },
-      { "$ref": "domn-comment" },
-      { "$ref": "domn-documentType" }
+      { "$ref": "domon-element" },
+      { "$ref": "domon-text" },
+      { "$ref": "domon-processingInstruction" },
+      { "$ref": "domon-comment" },
+      { "$ref": "domon-documentType" }
     ]
   }
 }

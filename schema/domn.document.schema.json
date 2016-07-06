@@ -1,12 +1,12 @@
 {
-  "id": "domn-document",
-  "title": "DOMN document node",
+  "id": "domon-document",
+  "title": "DOMON document node",
   "type": "array",
   "minItems": 3,
   "maxItems": 3,
   "items": [
     { "id": "nodeType", "type": "number", "enum": [ 9 ] },
     { "id": "title", "type": "string" },
-    { "$ref": "domn-childNodes" }
+    { "$ref": "domon-childNodes" }
   ]
 }

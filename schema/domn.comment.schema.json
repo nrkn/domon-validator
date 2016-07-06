@@ -1,6 +1,6 @@
 {
-  "id": "domn-comment",
-  "title": "DOMN comment node",
+  "id": "domon-comment",
+  "title": "DOMON comment node",
   "type": "array",
   "minItems": 2,
   "maxItems": 2,

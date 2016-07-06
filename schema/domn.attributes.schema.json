@@ -1,6 +1,6 @@
 {
-  "id": "domn-attributes",
-  "title": "DOMN attributes",
+  "id": "domon-attributes",
+  "title": "DOMON attributes",
   "type": "object",
   "additionalProperties": { "type": "string" }
 }
