@@ -1,0 +1,11 @@
+{
+  "id": "domn-comment",
+  "title": "DOMN comment node",
+  "type": "array",
+  "minItems": 2,
+  "maxItems": 2,
+  "items": [
+    { "id": "nodeType", "type": "number", "enum": [ 8 ] },
+    { "id": "data", "type": "string" }
+  ]
+}
